@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDECDD94295BE49000F5D159 /* InstrumentShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */; };
+		EDECDD96295BE49000F5D159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDD95295BE49000F5D159 /* ContentView.swift */; };
+		EDECDD98295BE49100F5D159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDECDD97295BE49100F5D159 /* Assets.xcassets */; };
+		EDECDD9B295BE49100F5D159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDECDD9A295BE49100F5D159 /* Preview Assets.xcassets */; };
+		EDECDDA5295BE49100F5D159 /* InstrumentShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDA4295BE49100F5D159 /* InstrumentShopTests.swift */; };
+		EDECDDAF295BE49100F5D159 /* InstrumentShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDAE295BE49100F5D159 /* InstrumentShopUITests.swift */; };
+		EDECDDB1295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDB0295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDECDDA1295BE49100F5D159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDECDD88295BE49000F5D159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDECDD8F295BE49000F5D159;
+			remoteInfo = InstrumentShop;
+		};
+		EDECDDAB295BE49100F5D159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDECDD88295BE49000F5D159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDECDD8F295BE49000F5D159;
+			remoteInfo = InstrumentShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDECDD90295BE49000F5D159 /* InstrumentShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstrumentShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopApp.swift; sourceTree = "<group>"; };
+		EDECDD95295BE49000F5D159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDECDD97295BE49100F5D159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDECDD9A295BE49100F5D159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDECDDA0295BE49100F5D159 /* InstrumentShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDECDDA4295BE49100F5D159 /* InstrumentShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopTests.swift; sourceTree = "<group>"; };
+		EDECDDAA295BE49100F5D159 /* InstrumentShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDECDDAE295BE49100F5D159 /* InstrumentShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopUITests.swift; sourceTree = "<group>"; };
+		EDECDDB0295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDECDD8D295BE49000F5D159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDECDD9D295BE49100F5D159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDECDDA7295BE49100F5D159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDECDD87295BE49000F5D159 = {
+			isa = PBXGroup;
+			children = (
+				EDECDD92295BE49000F5D159 /* InstrumentShop */,
+				EDECDDA3295BE49100F5D159 /* InstrumentShopTests */,
+				EDECDDAD295BE49100F5D159 /* InstrumentShopUITests */,
+				EDECDD91295BE49000F5D159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDECDD91295BE49000F5D159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDECDD90295BE49000F5D159 /* InstrumentShop.app */,
+				EDECDDA0295BE49100F5D159 /* InstrumentShopTests.xctest */,
+				EDECDDAA295BE49100F5D159 /* InstrumentShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDECDD92295BE49000F5D159 /* InstrumentShop */ = {
+			isa = PBXGroup;
+			children = (
+				EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */,
+				EDECDD95295BE49000F5D159 /* ContentView.swift */,
+				EDECDD97295BE49100F5D159 /* Assets.xcassets */,
+				EDECDD99295BE49100F5D159 /* Preview Content */,
+			);
+			path = InstrumentShop;
+			sourceTree = "<group>";
+		};
+		EDECDD99295BE49100F5D159 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDECDD9A295BE49100F5D159 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDECDDA3295BE49100F5D159 /* InstrumentShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDECDDA4295BE49100F5D159 /* InstrumentShopTests.swift */,
+			);
+			path = InstrumentShopTests;
+			sourceTree = "<group>";
+		};
+		EDECDDAD295BE49100F5D159 /* InstrumentShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDECDDAE295BE49100F5D159 /* InstrumentShopUITests.swift */,
+				EDECDDB0295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift */,
+			);
+			path = InstrumentShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDECDD8F295BE49000F5D159 /* InstrumentShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDECDDB4295BE49100F5D159 /* Build configuration list for PBXNativeTarget "InstrumentShop" */;
+			buildPhases = (
+				EDECDD8C295BE49000F5D159 /* Sources */,
+				EDECDD8D295BE49000F5D159 /* Frameworks */,
+				EDECDD8E295BE49000F5D159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstrumentShop;
+			productName = InstrumentShop;
+			productReference = EDECDD90295BE49000F5D159 /* InstrumentShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDECDD9F295BE49100F5D159 /* InstrumentShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDECDDB7295BE49100F5D159 /* Build configuration list for PBXNativeTarget "InstrumentShopTests" */;
+			buildPhases = (
+				EDECDD9C295BE49100F5D159 /* Sources */,
+				EDECDD9D295BE49100F5D159 /* Frameworks */,
+				EDECDD9E295BE49100F5D159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDECDDA2295BE49100F5D159 /* PBXTargetDependency */,
+			);
+			name = InstrumentShopTests;
+			productName = InstrumentShopTests;
+			productReference = EDECDDA0295BE49100F5D159 /* InstrumentShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDECDDA9295BE49100F5D159 /* InstrumentShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDECDDBA295BE49100F5D159 /* Build configuration list for PBXNativeTarget "InstrumentShopUITests" */;
+			buildPhases = (
+				EDECDDA6295BE49100F5D159 /* Sources */,
+				EDECDDA7295BE49100F5D159 /* Frameworks */,
+				EDECDDA8295BE49100F5D159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDECDDAC295BE49100F5D159 /* PBXTargetDependency */,
+			);
+			name = InstrumentShopUITests;
+			productName = InstrumentShopUITests;
+			productReference = EDECDDAA295BE49100F5D159 /* InstrumentShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDECDD88295BE49000F5D159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDECDD8F295BE49000F5D159 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EDECDD9F295BE49100F5D159 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDECDD8F295BE49000F5D159;
+					};
+					EDECDDA9295BE49100F5D159 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDECDD8F295BE49000F5D159;
+					};
+				};
+			};
+			buildConfigurationList = EDECDD8B295BE49000F5D159 /* Build configuration list for PBXProject "InstrumentShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDECDD87295BE49000F5D159;
+			productRefGroup = EDECDD91295BE49000F5D159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDECDD8F295BE49000F5D159 /* InstrumentShop */,
+				EDECDD9F295BE49100F5D159 /* InstrumentShopTests */,
+				EDECDDA9295BE49100F5D159 /* InstrumentShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDECDD8E295BE49000F5D159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECDD9B295BE49100F5D159 /* Preview Assets.xcassets in Resources */,
+				EDECDD98295BE49100F5D159 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDECDD9E295BE49100F5D159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDECDDA8295BE49100F5D159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDECDD8C295BE49000F5D159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECDD96295BE49000F5D159 /* ContentView.swift in Sources */,
+				EDECDD94295BE49000F5D159 /* InstrumentShopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDECDD9C295BE49100F5D159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECDDA5295BE49100F5D159 /* InstrumentShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDECDDA6295BE49100F5D159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECDDAF295BE49100F5D159 /* InstrumentShopUITests.swift in Sources */,
+				EDECDDB1295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDECDDA2295BE49100F5D159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDECDD8F295BE49000F5D159 /* InstrumentShop */;
+			targetProxy = EDECDDA1295BE49100F5D159 /* PBXContainerItemProxy */;
+		};
+		EDECDDAC295BE49100F5D159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDECDD8F295BE49000F5D159 /* InstrumentShop */;
+			targetProxy = EDECDDAB295BE49100F5D159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDECDDB2295BE49100F5D159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDECDDB3295BE49100F5D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDECDDB5295BE49100F5D159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstrumentShop/Preview Content\"";
+				DEVELOPMENT_TEAM = KGKWAQ6532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.viarengo.chris.InstrumentShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDECDDB6295BE49100F5D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstrumentShop/Preview Content\"";
+				DEVELOPMENT_TEAM = KGKWAQ6532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.viarengo.chris.InstrumentShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDECDDB8295BE49100F5D159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGKWAQ6532;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.viarengo.chris.InstrumentShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstrumentShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstrumentShop";
+			};
+			name = Debug;
+		};
+		EDECDDB9295BE49100F5D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGKWAQ6532;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.viarengo.chris.InstrumentShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstrumentShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstrumentShop";
+			};
+			name = Release;
+		};
+		EDECDDBB295BE49100F5D159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGKWAQ6532;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.viarengo.chris.InstrumentShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstrumentShop;
+			};
+			name = Debug;
+		};
+		EDECDDBC295BE49100F5D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGKWAQ6532;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.viarengo.chris.InstrumentShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstrumentShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDECDD8B295BE49000F5D159 /* Build configuration list for PBXProject "InstrumentShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECDDB2295BE49100F5D159 /* Debug */,
+				EDECDDB3295BE49100F5D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDECDDB4295BE49100F5D159 /* Build configuration list for PBXNativeTarget "InstrumentShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECDDB5295BE49100F5D159 /* Debug */,
+				EDECDDB6295BE49100F5D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDECDDB7295BE49100F5D159 /* Build configuration list for PBXNativeTarget "InstrumentShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECDDB8295BE49100F5D159 /* Debug */,
+				EDECDDB9295BE49100F5D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDECDDBA295BE49100F5D159 /* Build configuration list for PBXNativeTarget "InstrumentShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECDDBB295BE49100F5D159 /* Debug */,
+				EDECDDBC295BE49100F5D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDECDD88295BE49000F5D159 /* Project object */;
+}
