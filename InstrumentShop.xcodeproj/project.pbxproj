@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EDECDD94295BE49000F5D159 /* InstrumentShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */; };
-		EDECDD96295BE49000F5D159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDD95295BE49000F5D159 /* ContentView.swift */; };
+		EDECDD96295BE49000F5D159 /* InstrumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDD95295BE49000F5D159 /* InstrumentListView.swift */; };
 		EDECDD98295BE49100F5D159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDECDD97295BE49100F5D159 /* Assets.xcassets */; };
 		EDECDD9B295BE49100F5D159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDECDD9A295BE49100F5D159 /* Preview Assets.xcassets */; };
 		EDECDDA5295BE49100F5D159 /* InstrumentShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDA4295BE49100F5D159 /* InstrumentShopTests.swift */; };
 		EDECDDAF295BE49100F5D159 /* InstrumentShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDAE295BE49100F5D159 /* InstrumentShopUITests.swift */; };
 		EDECDDB1295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDB0295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift */; };
+		EDECDDBE295BE4AE00F5D159 /* InstrumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDBD295BE4AE00F5D159 /* InstrumentModel.swift */; };
+		EDECDDC0295BF8E800F5D159 /* InstrumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDBF295BF8E800F5D159 /* InstrumentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		EDECDD90295BE49000F5D159 /* InstrumentShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstrumentShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopApp.swift; sourceTree = "<group>"; };
-		EDECDD95295BE49000F5D159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDECDD95295BE49000F5D159 /* InstrumentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentListView.swift; sourceTree = "<group>"; };
 		EDECDD97295BE49100F5D159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDECDD9A295BE49100F5D159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDECDDA0295BE49100F5D159 /* InstrumentShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		EDECDDAA295BE49100F5D159 /* InstrumentShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDECDDAE295BE49100F5D159 /* InstrumentShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopUITests.swift; sourceTree = "<group>"; };
 		EDECDDB0295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDECDDBD295BE4AE00F5D159 /* InstrumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentModel.swift; sourceTree = "<group>"; };
+		EDECDDBF295BF8E800F5D159 /* InstrumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */,
-				EDECDD95295BE49000F5D159 /* ContentView.swift */,
+				EDECDD95295BE49000F5D159 /* InstrumentListView.swift */,
+				EDECDDBF295BF8E800F5D159 /* InstrumentDetailView.swift */,
+				EDECDDBD295BE4AE00F5D159 /* InstrumentModel.swift */,
 				EDECDD97295BE49100F5D159 /* Assets.xcassets */,
 				EDECDD99295BE49100F5D159 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDECDD96295BE49000F5D159 /* ContentView.swift in Sources */,
+				EDECDDC0295BF8E800F5D159 /* InstrumentDetailView.swift in Sources */,
+				EDECDD96295BE49000F5D159 /* InstrumentListView.swift in Sources */,
 				EDECDD94295BE49000F5D159 /* InstrumentShopApp.swift in Sources */,
+				EDECDDBE295BE4AE00F5D159 /* InstrumentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
