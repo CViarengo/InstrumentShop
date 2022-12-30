@@ -18,6 +18,9 @@ struct InstrumentModel: Identifiable {
     var strings: Int?
     var keys: Int?
     var drumPieces: Int?
+    
+    /// Some instruments are not found in `SF Symbols` and require external Assets
+    var isSystemImage = true
 }
 
 let sixStringGuitar = InstrumentModel(
@@ -54,7 +57,8 @@ let pearlDrumkit = InstrumentModel(
     type: "Acoustic Drum Set",
     price: 389.00,
     description: "Pearl Roadshow Jr. 5-piece Complete Drum Set with Cymbals",
-    drumPieces: 5)
+    drumPieces: 5,
+    isSystemImage: false)
 
 
 let instrumentArray = [sixStringGuitar, eightStringGuitar, casioKeyboard, pearlDrumkit]
