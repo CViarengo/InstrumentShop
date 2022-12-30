@@ -13,7 +13,7 @@ struct InstrumentDetailView: View {
     
     var body: some View {
         
-        Text("Hello, \(instrument.type)")
+        Text("Hello, \(instrument.type.label)")
     }
 }
 
