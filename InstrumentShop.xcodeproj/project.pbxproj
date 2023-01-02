@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60D0344295F7DBD00985CA1 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60D0343295F7DBD00985CA1 /* Instrument.swift */; };
 		EDECDD94295BE49000F5D159 /* InstrumentShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */; };
 		EDECDD96295BE49000F5D159 /* InstrumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDD95295BE49000F5D159 /* InstrumentListView.swift */; };
 		EDECDD98295BE49100F5D159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDECDD97295BE49100F5D159 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E60D0343295F7DBD00985CA1 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		EDECDD90295BE49000F5D159 /* InstrumentShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstrumentShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDECDD93295BE49000F5D159 /* InstrumentShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopApp.swift; sourceTree = "<group>"; };
 		EDECDD95295BE49000F5D159 /* InstrumentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentListView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				EDECDD95295BE49000F5D159 /* InstrumentListView.swift */,
 				EDECDDBF295BF8E800F5D159 /* InstrumentDetailView.swift */,
 				EDECDDBD295BE4AE00F5D159 /* InstrumentModel.swift */,
+				E60D0343295F7DBD00985CA1 /* Instrument.swift */,
 				EDECDD97295BE49100F5D159 /* Assets.xcassets */,
 				EDECDD99295BE49100F5D159 /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60D0344295F7DBD00985CA1 /* Instrument.swift in Sources */,
 				EDECDDC0295BF8E800F5D159 /* InstrumentDetailView.swift in Sources */,
 				EDECDD96295BE49000F5D159 /* InstrumentListView.swift in Sources */,
 				EDECDD94295BE49000F5D159 /* InstrumentShopApp.swift in Sources */,

@@ -17,50 +17,53 @@ struct InstrumentListView: View {
                 
                 ForEach(instrumentArray) { instrument in
                     
-                    
-                    
-                    HStack {
+                    NavigationLink {  InstrumentDetailView(instrument: instrument) } label: {
                         
-                        /// Determines if a `systemImage` will be used or an `Assets Image` will be used.
-                        (instrument.isSystemImage ? Image(systemName: instrument.image) : Image(instrument.image))
-                            .resizable()
-                            .scaledToFit()
-                            .frame(height: 96)
-                            .padding(.horizontal)
-                        
-                        Spacer()
-                        
-                        Text(instrument.name)
-                            .font(.title)
-                            .frame(maxWidth: .infinity)
-                            .padding(.horizontal)
+                        VStack {
+                            
+                            HStack {
+                                
+                                /// Determines if a `systemImage` will be used or an `Assets Image` will be used.
+                                (instrument.isSystemImage ? Image(systemName: instrument.image) : Image(instrument.image))
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(height: 96)
+                                    .padding(.horizontal)
+                                
+                                Spacer()
+                                
+                                Text(instrument.name)
+                                    .font(.title)
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.horizontal)
+                            }
+                            
+                            Text(instrument.type.label)
+                                .font(.title3)
+                            
+                            Text(String(instrument.price))
+                                .foregroundColor(.red)
+                                .bold()
+                            
+                            Text(instrument.description)
+                            
+                            if instrument.strings != nil {
+                                Text(String(instrument.strings!) + " Strings")
+                            }
+                            
+                            if instrument.keys != nil {
+                                Text(String(instrument.keys!) + " Keys")
+                            }
+                            
+                            if instrument.drumPieces != nil {
+                                Text(String(instrument.drumPieces!) + " Pieces")
+                            }
+                            
+                            Divider()
+                                .padding()
+                        }
+                        .foregroundColor(.black)
                     }
-                    
-                    VStack {
-                        
-                        Text(instrument.type)
-                            .font(.title3)
-                        
-                        Text(String(instrument.price))
-                            .foregroundColor(.red)
-                            .bold()
-                        
-                        Text(instrument.description)
-                        
-                        if instrument.strings != nil {
-                            Text(String(instrument.strings!) + " Strings")
-                        }
-                        if instrument.keys != nil {
-                            Text(String(instrument.keys!) + " Keys")
-                        }
-                        if instrument.drumPieces != nil {
-                            Text(String(instrument.drumPieces!) + " Pieces")
-                        }
-                        
-                        NavigationLink("More Info >>") { InstrumentDetailView(instrument: instrument) }
-                    }
-                    Divider()
-                        .padding()
                 }
             }
         }
