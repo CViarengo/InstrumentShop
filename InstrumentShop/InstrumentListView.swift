@@ -66,6 +66,8 @@ struct InstrumentListView: View {
                     }
                 }
             }
+            .navigationTitle("Instruments")
+            .listStyle(.plain)
         }
     }
 }

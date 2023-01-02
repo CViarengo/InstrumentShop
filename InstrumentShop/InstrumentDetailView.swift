@@ -19,10 +19,14 @@ struct InstrumentDetailView: View {
             VStack {
                 
                 Text("Hello, \(instrument.type.label)")
+                    .font(.largeTitle)
+                    .bold()
                 
                 
                 
                 Text("More information goes here")
+                    
+                
             }
         }
         .navigationTitle("Specs")

@@ -14,7 +14,7 @@ struct InstrumentModel: Identifiable {
     var image: String
     var color: String
     var type: Instrument
-    var price: Double
+    var price: String
     var description: String
     var strings: Int?
     var keys: Int?
@@ -29,25 +29,26 @@ let sixStringGuitar = InstrumentModel(
     image: "guitars",
     color: "Maroon",
     type: .guitar,
-    price: 1_000,
+    price: "1,000",
     description: "Schecter Artist Series Guitar",
     strings: 6)
 
 let eightStringGuitar = InstrumentModel(
     name: "Schecter Guitar",
-    image: "guitars",
-    color: "Navy Blue",
+    image: "SchecterOmen8",
+    color: "Black",
     type: .guitar,
-    price: 1_500,
+    price: "1,500",
     description: "Schecter Omen Series Guitar",
-    strings: 8)
+    strings: 8,
+    isSystemImage: false)
 
 let casioKeyboard = InstrumentModel(
     name: "Casio Keyboard",
     image: "pianokeys",
     color: "Black",
     type: .keyboard,
-    price: 3_000.99,
+    price: "3,000.99",
     description: "Big Ass Casio Keyboard",
     keys: 128)
 
@@ -56,7 +57,7 @@ let pearlDrumkit = InstrumentModel(
     image: "PearlDrumKit",
     color: "Silver",
     type: .drums,
-    price: 389.00,
+    price: "389.50",
     description: "Pearl Roadshow Jr. 5-piece Complete Drum Set with Cymbals",
     drumPieces: 5,
     isSystemImage: false)

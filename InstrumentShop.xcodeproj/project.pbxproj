@@ -17,6 +17,7 @@
 		EDECDDB1295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDB0295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift */; };
 		EDECDDBE295BE4AE00F5D159 /* InstrumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDBD295BE4AE00F5D159 /* InstrumentModel.swift */; };
 		EDECDDC0295BF8E800F5D159 /* InstrumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECDDBF295BF8E800F5D159 /* InstrumentDetailView.swift */; };
+		EDF015F82962668C007B269F /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF015F72962668C007B269F /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		EDECDDB0295BE49100F5D159 /* InstrumentShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EDECDDBD295BE4AE00F5D159 /* InstrumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentModel.swift; sourceTree = "<group>"; };
 		EDECDDBF295BF8E800F5D159 /* InstrumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentDetailView.swift; sourceTree = "<group>"; };
+		EDF015F72962668C007B269F /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				EDECDD95295BE49000F5D159 /* InstrumentListView.swift */,
 				EDECDDBF295BF8E800F5D159 /* InstrumentDetailView.swift */,
 				EDECDDBD295BE4AE00F5D159 /* InstrumentModel.swift */,
+				EDF015F72962668C007B269F /* Protocols.swift */,
 				E60D0343295F7DBD00985CA1 /* Instrument.swift */,
 				EDECDD97295BE49100F5D159 /* Assets.xcassets */,
 				EDECDD99295BE49100F5D159 /* Preview Content */,
@@ -269,6 +272,7 @@
 				E60D0344295F7DBD00985CA1 /* Instrument.swift in Sources */,
 				EDECDDC0295BF8E800F5D159 /* InstrumentDetailView.swift in Sources */,
 				EDECDD96295BE49000F5D159 /* InstrumentListView.swift in Sources */,
+				EDF015F82962668C007B269F /* Protocols.swift in Sources */,
 				EDECDD94295BE49000F5D159 /* InstrumentShopApp.swift in Sources */,
 				EDECDDBE295BE4AE00F5D159 /* InstrumentModel.swift in Sources */,
 			);
