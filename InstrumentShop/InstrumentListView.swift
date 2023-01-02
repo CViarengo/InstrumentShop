@@ -41,7 +41,7 @@ struct InstrumentListView: View {
                             Text(instrument.type.label)
                                 .font(.title3)
                             
-                            Text(String(instrument.price))
+                            Text( "$" + String(instrument.price))
                                 .foregroundColor(.red)
                                 .bold()
                             
